@@ -14,14 +14,15 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Angular FrontEnd:
 
-## Running end-to-end tests
+Step1:Need to install "nodemodules" --npm install Step2:To run the application use command --npm start/ng serve
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Prerequisites :
 
-## Further help
+Before you begin, make sure your development environment includes Node.js® and an npm package manager.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Flow of Application:
+
+Step1: After Starting the Application LoginPage will be displayed automatically and opens your browser to http://localhost:4200/. Step2: New User can register using Registration link provided. Step3: If he is already a user,Can login using his/her Credintials. (predefined Login details: UserId--"test" Password--"123456789" Step4: Then he can able to see his Details.
